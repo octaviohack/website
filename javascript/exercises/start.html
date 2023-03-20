@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #box-display{
+    width: 600px;
+    min-height: 200px;
+    background-color: rgb(222, 255, 198);
+    border: 1px solid chartreuse;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #myform{
+    width: 600px;
+    min-height: 200px;
+    background-color: rgb(226, 231, 223);
+    border: 1px solid rgb(20, 20, 20);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #myform p, #myform input, #myform button{
+  font-size: 22px;
+  }
+  #myform input{
+    min-width: 400px;
+  }
+  #myform button{
+    padding: 6px 14px;
+    background-color: aqua;
+    color: azure;
+  
+  }
+</style>
+
+<body>
+
+<div id="box-display">
+
+</div>
+<div id="myform">
+  <p><label for="fNameImput">First Name:</label>
+  <input type="text" id="fNameImput" value="Pleas enter your  First Name"></p>
+
+  <p><label for="lNameImput">Last Name:</label>
+    <input type="text" id="lNameImput" value="Pleas enter your Last Name" onfocus=""></p>
+
+  <p><label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" value="" disabled></p>
+
+   <button id="btn_1" onclick="addName()">Click me</button>
+  </div>
+  
+  <script>
+
+    let userName = "Octavio";
+    let price = 100;
+
+    console.log("hello world");
+    console.log("User Name "+userName);
+    console.log("User Name "+ typeof userName);
+    console.log(`Price: ${price}`);
+    console.log(`Price: ${ typeof price}`); 
+    document.write(`<h1>Price: ${price}</h1>`);
+    document.write("<h1>User Name "+userName+"</h1>");
+    
+    // ------- Get box in the web page and assing to variable --------------//
+    let box = document.getElementById("box-display").innerHTML = "<h2>" + userName + "</h2>";
+    function addName(){
+      let fName = document.getElementById("fNameImput").value;
+      let lName = document.getElementById("lNameImput").value;
+      let fullname = fName + " " + lName;
+      document.getElementById("fullname").value = fullname;
+    }
+
+  </script>
+
+
+
+</body>
+</html>

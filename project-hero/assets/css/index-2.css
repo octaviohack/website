@@ -1,0 +1,213 @@
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+img.logo-nav {
+  width:180px;
+  height:60px;
+}
+video.background-video.container-media{
+height: 200px;
+}
+
+h2{ 
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  flex-wrap: wrap;
+ display: inline-flex;
+  
+  
+
+}
+h2 span{ 
+  font-size: 55px;
+  cursor: default ;
+color: rgb(85, 85, 109); 
+  
+}
+
+
+ h2 span:hover{
+  animation: animar-texto 1s ease-in-out 1 normal both;
+  }
+  @keyframes animar-texto {
+   from {
+    transform: scale3d(1,1,1);
+  }
+  40%{
+    transform: scale3d(.75,1.25,1);
+    color: rgba(209, 10, 235, 0.764);
+  }
+  50%{
+    transform: scale3d(1.25,0.85,1);
+  }
+  65%{
+    transform: scale3d(.95,1.05,1);
+  }
+  75%{
+    transform: scale3d(1.05,0.95,1);
+  }
+  to {
+    transform: scale3d(1,1,1);
+  }
+  }
+
+  header.theme-dark .container-btn a.btn:nth-child(1):link,
+  header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--trans-000) }
+  
+  header.theme-dark .container-btn a.btn:nth-child(1):link,
+  header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+  
+  nav.theme-dark .nav-toggle .bar-1,
+  nav.theme-dark .nav-toggle .bar-2,
+  nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+  nav.theme-dark .nav-toggle .bar-1,
+  nav.theme-dark .nav-toggle .bar-2,
+  nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+  nav.theme-dark .nav-toggle .bar-1,
+  nav.theme-dark .nav-toggle .bar-2,
+  nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+  nav.theme-dark .nav-toggle { background-color: var(--black-000) }
+  nav.theme-dark a#btn-cta:link,
+  nav.theme-dark a#btn-cta:visited { color: var(--white-000) }
+  nav.theme-dark a#btn-cta:link,
+  nav.theme-dark a#btn-cta:visited { background-color: var(--trans-000) }
+  nav.theme-dark ul.links-wrapper li a:focus,
+  nav.theme-dark ul.links-wrapper li a:hover,
+  nav.theme-dark ul.links-wrapper li a:active { color: var(--fuchsia-600) }
+  nav.theme-dark a#btn-cta:focus,
+  nav.theme-dark a#btn-cta:hover,
+  nav.theme-dark a#btn-cta:active { border-color: var(--fuchsia-600) }
+  nav.theme-dark a#btn-cta:focus,
+  nav.theme-dark a#btn-cta:hover,
+  nav.theme-dark a#btn-cta:active { border-color: var(--fuchsia-600) }
+  nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+  nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+  nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--fuchsia-600) }
+  header.theme-dark .container-btn a.btn:nth-child(1):focus,
+  header.theme-dark .container-btn a.btn:nth-child(1):hover,
+  header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--fuchsia-600) }
+  
+  header.theme-dark .container-btn a.btn:nth-child(1):focus,
+  header.theme-dark .container-btn a.btn:nth-child(1):hover,
+  header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--trans-000) }
+  
+  header.theme-dark .container-btn a.btn:nth-child(1):focus,
+  header.theme-dark .container-btn a.btn:nth-child(1):hover,
+  header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--fuchsia-600) }
+  
+  header.theme-dark .container-btn a.btn:nth-child(2):focus,
+  header.theme-dark .container-btn a.btn:nth-child(2):hover,
+  header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--fuchsia-600) }
+  
+  header.theme-dark .container-btn a.btn:nth-child(2):focus,
+  header.theme-dark .container-btn a.btn:nth-child(2):hover,
+  header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--fuchsia-600) }
+  
+  header.theme-dark .container-btn a.btn:nth-child(2):focus,
+  header.theme-dark .container-btn a.btn:nth-child(2):hover,
+  header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--trans-000) }
+  
+
+
+
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--black-000) }
+
+.section-selector-2 .flex-cols-4 .col-4 a.col-4-h3:link,
+.section-selector-2 .flex-cols-4 .col-4 a.col-4-h3:visited { color: var(--black-000) }
+.section-selector-2 div[class^='col-'] a[class^='col-']:link, .section-selector-2 div[class^='col-'] a[class^='col-']:visited { text-decoration-color: var(--fuchsia-600) }
+.section-selector-2 a.btn:focus,
+.section-selector-2 a.btn:hover,
+.section-selector-2 a.btn:active { color: var(--fuchsia-600) }
+
+.section-selector-2 a.btn:focus,
+.section-selector-2 a.btn:hover,
+.section-selector-2 a.btn:active { background-color: var(--white-000) }
+
+.section-selector-2 a.btn:focus,
+.section-selector-2 a.btn:hover,
+.section-selector-2 a.btn:active { border-color: var(--fuchsia-600) }
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: rgb(7, 7, 7);
+  color: rgb(247, 247, 247);
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 5px;
+  font-size: 26px;
+  font-family: 'Rajdhani', sans-serif;
+}
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--black-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+
+.focus-in-contract-bck {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+	-webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-12-17 21:59:38
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-contract-bck
+ * ----------------------------------------
+ */
+ @-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+

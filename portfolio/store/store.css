@@ -1,0 +1,34 @@
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+img.logo-nav {
+  width:180px;
+  height:60px;
+}
+  
+  nav.theme-dark .nav-toggle .bar-1,
+  nav.theme-dark .nav-toggle .bar-2,
+  nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+  nav.theme-dark .nav-toggle .bar-1,
+  nav.theme-dark .nav-toggle .bar-2,
+  nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+  nav.theme-dark .nav-toggle .bar-1,
+  nav.theme-dark .nav-toggle .bar-2,
+  nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+  nav.theme-dark .nav-toggle { background-color: var(--black-000) }
+  nav.theme-dark a#btn-cta:link,
+  nav.theme-dark a#btn-cta:visited { color: var(--white-000) }
+  nav.theme-dark a#btn-cta:link,
+  nav.theme-dark a#btn-cta:visited { background-color: var(--trans-000) }
+  nav.theme-dark ul.links-wrapper li a:focus,
+  nav.theme-dark ul.links-wrapper li a:hover,
+  nav.theme-dark ul.links-wrapper li a:active { color: var(--fuchsia-600) }
+  nav.theme-dark a#btn-cta:focus,
+  nav.theme-dark a#btn-cta:hover,
+  nav.theme-dark a#btn-cta:active { border-color: var(--fuchsia-600) }
+  nav.theme-dark a#btn-cta:focus,
+  nav.theme-dark a#btn-cta:hover,
+  nav.theme-dark a#btn-cta:active { border-color: var(--fuchsia-600) }
+  nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+  nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+  nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--fuchsia-600) }

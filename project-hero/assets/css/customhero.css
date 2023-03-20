@@ -1,0 +1,23 @@
+
+#hero-1 header.theme-dark { background-color: var(--blue-700)}
+#hero-2 header.hero-bg > .container-overlay {background-image: linear-gradient(rgba(0,0,0,5),rgba(0,0,0,0,5));}
+#hero-2 header.hero-block h1 {
+  font-family: 'Bebas Neue';
+  letter-spacing: 4px;
+font-size: calc(60px + (120 - 60) * ((100vw - 320px)/ (1600 - 320)));
+}
+#hero-3 h1 { 
+  font-family: 'Abril Fatface', cursive;
+  font-size: calc(60px + (120 - 60) * ((100vw - 320px)/ (1600 - 320)));
+}
+.section-selector-1 { background-color: var(--trend-050) }
+#hero-4 header h1 { 
+  font-family: 'Prata', serif;
+     font-weight: 400;
+     letter-spacing: -4px;
+     line-height: 1.2
+  }
+  
+  #hero-4 .hero-block.bg-img-left .hero-text-container h2 {
+     color: var(--gray-700);
+  }   

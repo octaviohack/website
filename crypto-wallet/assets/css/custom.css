@@ -1,0 +1,27 @@
+header {
+  min-height: 90vh;
+}
+body { font-family: 'Outfit', sans-serif } 
+.section-selector-1 > h2 { color: var(--white-000) }
+.section-selector-1 { background-color: var(--trend-700) }
+.section-selector-1 .badge { background-color: var(--trend-800) }
+.section-selector-1 .badge { color: var(--white-000) }
+.section-selector-2 { background-color: var(--trend-800) }
+.section-selector-3 { background-color: var(--trend-700) }
+.section-selector-2 h2 { color: var(--white-000) }
+.section-selector-2 .col-2.col-text p { color: var(--white-000) }
+.section-selector-2 .col-2.col-text ul li { color: var(--white-000) }
+.section-selector-2 .col-2.col-text li::marker, .section-selector-2 ul.fa-ul li span.fa-li i { color: var(--blue-300) }
+.section-selector-2 { background-color: var(--trend-700) }
+.section-selector-3 { background-color: var(--trend-800) }
+.section-selector-2 .col-2.col-text li::marker, .section-selector-2 ul.fa-ul li span.fa-li i { color: var(--blue-300) }
+.section-selector-1 { background-color: var(--trend-800) }
+.section-selector-1 h2 { color: var(--white-000) }
+.section-selector-1 .col-2.col-text p { color: var(--white-000) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--trend-700) }
+.section-selector-3 { background-color: var(--trend-700) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--white-000) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--white-000) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--white-000) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
+.section-selector-3 .col-1 h2 { color: var(--white-000) }

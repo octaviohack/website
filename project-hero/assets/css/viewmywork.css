@@ -1,0 +1,304 @@
+/* Regular and larger screens */
+@media (min-width: 1200px) { 
+  section { 
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3.5% 0 4% 0; 
+      padding-left: calc( (100% - 1140px)/2 );
+      padding-right: calc( (100% - 1140px)/2 );
+}
+   .section-narrow {
+      padding-left: calc( (100% - 920px)/2 );
+      padding-right: calc( (100% - 920px)/2 );
+   } 
+}
+    
+
+
+body{
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+}
+
+
+h1{
+  font-family: 'Rajdhani', sans-serif;
+}
+h2{
+  font-family: 'Rajdhani', sans-serif;
+
+}
+p{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--fuchsia-600) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--fuchsia-600) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--black-000) }
+
+.section-selector-1 { background-color: var(--black-000) }
+
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--trans-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
+nav.theme-dark .nav-toggle { background-color: var(--black-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--white-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--trans-000) }
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active { color: var(--fuchsia-600) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { border-color: var(--fuchsia-600) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { border-color: var(--fuchsia-600) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--fuchsia-600) }
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--fuchsia-600) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--trans-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--fuchsia-600) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--fuchsia-600) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--fuchsia-600) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--trans-000) }
+
+  img.logo-nav {
+    width:180px;
+    height:60px;
+  }
+
+
+  /*carousel---------------------------------------------------------*/
+.carousel{
+  margin: 0 auto;
+  overflow: hidden; /*clips content outside element*/
+  text-align: center;
+  margin-top: 35px;
+  background: url("https://media.tenor.com/jL6Frsqda74AAAAC/game-over.gif");
+  background-size: cover;
+  
+}
+.slides{
+  width: 55%;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  display: inline-flex ;
+  image-rendering: optimizeQuality;
+  overflow: scroll; /*enable horizontal scrolling*/
+  scrollbar-width: none;
+  scroll-snap-type: x  mandatory; /*sets how strictly snap points are enforced*/
+  scroll-behavior: smooth;
+  border-radius: 20px;
+
+  
+}
+.slides::-webkit-scrollbar{ /*change style of elements scrollbar*/
+  display: none;
+}
+.slides-item{
+  align-items: center;
+  border-radius: 0;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0 1rem; /*rem is Root element, gives fotn size of this*/
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform .5s;
+  width: 100%;
+  
+  
+}
+.carousel_nav{
+  padding: 1px;
+}
+.slider-nav{
+  align-items: center;
+  background-color: rgb(13, 13, 13);
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: .5rem;
+  position: relative;
+  text-decoration: none;
+  width: 1.5rem;
+}
+.slider-nav:hover{
+  background-image: linear-gradient(to bottom, #e200ff, #ad2ac6, #7d308f, #502d5a, #272328);
+  color: rgb(12, 1, 1);
+}
+.slider-nav:active{background-color: rgb(9, 8, 8);
+}/*when button is clicked*/
+
+.slide-1{
+  
+  background-size: contain;
+}/* aqui se le pude poner una imagen */
+.slide-2{
+  background-size: cover;
+}
+.slide-3{
+  background-size: cover;
+}
+.slide-4{
+ 
+  background-size: cover;
+}
+.slide-5{
+
+  background-size: cover;
+}
+.slide-6{
+
+  background-size: cover;
+}
+.slide-7{
+
+  background-size: cover;
+}
+.slide-8{
+
+  background-size: cover;
+}
+.slide-9{
+
+  background-size: cover;
+}
+.slide-10{
+
+  background-size: cover;
+}
+.slide-11{
+
+  background-size: cover;
+}
+.slide-12{
+
+  background-size: cover;
+}
+
+
+.carousel_skip-link{
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+.carousel_skip-link:focus{
+  width: 100%;
+  padding: 680px;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  opacity: 0.8; /*make elements semi-transparent*/
+  text-decoration: none;
+  z-index: 1; /* makes sure is drawn over everything on page*/
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-12-19 18:12:23
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
+
+footer{
+  background-color: rgb(7, 7, 7);
+  color: rgb(247, 247, 247);
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 5px;
+  font-size: 26px;
+  font-family: 'Rajdhani', sans-serif;
+}
